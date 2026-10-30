@@ -1,8 +1,8 @@
-/**
- * DataSet hardcodeado: primeras 10 filas del dataset Advertising (Kaggle).
- * Columnas: TV, Radio, Newspaper -> Sales.
- * Sustituye los arreglos por el CSV completo (200 filas) si tu profe lo pide.
- */
+/*Equipo:
+    Villalobos Alvarado Alma Belen.
+    Saucedo Ortiz Cesar Jesus.
+    Beltran Arellano Alison Odalis.
+*/  
 public class DataSet {
     private final double[] tv        = {230.1, 44.5, 17.2, 151.5, 180.8, 8.7, 57.5, 120.2, 8.6, 199.8};
     private final double[] radio     = { 37.8, 39.3, 45.9,  41.3,  10.8, 48.9, 32.8,  19.6, 2.1,   2.6};
