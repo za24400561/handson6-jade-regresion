@@ -1,4 +1,8 @@
-/** Utilerías de álgebra matricial para el Least Squares Regressor. */
+/*Equipo:
+    Villalobos Alvarado Alma Belen.
+    Saucedo Ortiz Cesar Jesus.
+    Beltran Arellano Alison Odalis.
+*/  
 public final class Matrix {
     private Matrix() {}
 
