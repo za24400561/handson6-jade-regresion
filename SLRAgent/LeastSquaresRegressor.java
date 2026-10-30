@@ -19,8 +19,6 @@ public abstract class LeastSquaresRegressor {
     public double[] getBetas() { return betas; }
 
     public double getBeta(int i) { return betas[i]; }
-
-    /** y_hat = X_row . beta  (X_row ya incluye el 1 inicial). */
     protected double predictRow(double[] row) {
         double s = 0;
         for (int i = 0; i < betas.length; i++) s += betas[i] * row[i];
