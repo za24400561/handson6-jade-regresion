@@ -1,4 +1,8 @@
-/** y = b0 + b1 x */
+/*Equipo:
+    Villalobos Alvarado Alma Belen.
+    Saucedo Ortiz Cesar Jesus.
+    Beltran Arellano Alison Odalis.
+*/  
 public class SimpleLinearRegression extends LeastSquaresRegressor {
     public SimpleLinearRegression(double[] x, double[] y) {
         double[][] d = new double[x.length][2];
