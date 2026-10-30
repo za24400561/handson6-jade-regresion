@@ -1,4 +1,8 @@
-/** Least Squares Regressor: beta = (X^T X)^-1 X^T y. Base de SLR, PR y MLR. */
+/*Equipo:
+    Villalobos Alvarado Alma Belen.
+    Saucedo Ortiz Cesar Jesus.
+    Beltran Arellano Alison Odalis.
+*/  
 public abstract class LeastSquaresRegressor {
     protected double[][] design;   // matriz de diseño X (primera columna de 1s)
     protected double[] y;          // vector de respuesta
@@ -23,7 +27,7 @@ public abstract class LeastSquaresRegressor {
         return s;
     }
 
-    /** R^2 = 1 - SSE/SST */
+
     public double calculateRSquared() {
         double mean = 0;
         for (double v : y) mean += v;
