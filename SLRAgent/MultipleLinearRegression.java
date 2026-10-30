@@ -1,4 +1,8 @@
-/** y = b0 + b1 x1 + ... + bk xk */
+/*Equipo:
+    Villalobos Alvarado Alma Belen.
+    Saucedo Ortiz Cesar Jesus.
+    Beltran Arellano Alison Odalis.
+*/  
 public class MultipleLinearRegression extends LeastSquaresRegressor {
     private final int k;
     public MultipleLinearRegression(double[][] x, double[] y) {
