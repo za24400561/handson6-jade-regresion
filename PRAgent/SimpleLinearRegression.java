@@ -1,4 +1,4 @@
-/** y = b0 + b1 x */
+
 public class SimpleLinearRegression extends LeastSquaresRegressor {
     public SimpleLinearRegression(double[] x, double[] y) {
         double[][] d = new double[x.length][2];
