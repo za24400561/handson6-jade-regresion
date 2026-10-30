@@ -1,4 +1,8 @@
-/** y = b0 + b1 x + b2 x^2 (grado 2 por defecto). */
+/*Equipo:
+    Villalobos Alvarado Alma Belen.
+    Saucedo Ortiz Cesar Jesus.
+    Beltran Arellano Alison Odalis.
+*/  
 public class PolynomialRegression extends LeastSquaresRegressor {
     private final int degree;
     public PolynomialRegression(double[] x, double[] y) { this(x, y, 2); }
